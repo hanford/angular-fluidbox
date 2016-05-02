@@ -2,7 +2,7 @@
   "name": "angular-fluidbox-commonjs",
   "version": "1.0.1",
   "description": "Angular directive wrapping fluidbox, for consumption via browserify",
-  "main": "src/angular-fluidbox.min.js",
+  "main": "./src/angular-fluidbox.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/izifortune/angular-fluidbox.git"
