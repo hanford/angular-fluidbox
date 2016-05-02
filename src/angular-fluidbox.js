@@ -1,6 +1,9 @@
-angular.module('fluidbox', [])
+module.exports = require('angular')
+  .module('fluidbox', [])
+  .directive('fluidbox', fluidbox)
+  .name
 
-.directive('fluidbox', function fluidbox() {
+function fluidbox () {
   return {
     restrict: 'A',
     link: function postLink(scope, element, attrs) {
@@ -30,4 +33,4 @@ angular.module('fluidbox', [])
       });
     }
   }
-});
+}
